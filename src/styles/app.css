@@ -1,0 +1,109 @@
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  color: #220f5f;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 10em;
+  margin-top: 5em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 40em;
+  color: #474955;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 137.687%;
+}
+
+tr td {
+  min-height: 6em;
+  border: 1px solid #eeeeee;
+  text-align: left;
+  padding-top: 1em;
+}
+
+.head {
+  background: #474955;
+  height: 54px;
+  color: white;
+  text-align: center;
+}
+
+.id {
+  width: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-left: 1em;
+}
+
+.body {
+  margin-left: 1em;
+}
+
+.not-selected {
+  color: #474955;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 0.7em;
+}
+.selected {
+  color: #7ebc3c;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  padding: 0.7em;
+}
+
+.pagination {
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.search {
+  height: 52px;
+  margin-bottom: 1em;
+  background: #5a5c66;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  color: #5a5c66;
+  font-size: 16px;
+  padding: 0;
+  cursor: pointer;
+}
+
+@media (min-width: 1200px) {
+  .header {
+    width: 56em;
+  }
+  .search {
+    width: 631px;
+  }
+}
